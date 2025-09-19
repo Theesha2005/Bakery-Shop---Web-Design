@@ -1,0 +1,208 @@
+/* Reset */
+* {
+  margin: 0; padding: 0; box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  color: #4d3527;
+  background: #ebdbdb;
+  line-height: 1.6;
+}
+
+/* Navigation */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: #f3dfd4;
+}
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #4d3527;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+.nav-links a {
+  margin-left: 1.5rem;
+  text-decoration: none;
+  color: #4d3527;
+  font-weight: 500;
+}
+.nav-links .active {
+  border-bottom: 2px solid #4d3527;
+}
+
+/* Hero */
+.hero {
+  position: relative;
+  height: 70vh;
+  overflow: hidden;
+}
+.hero-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(60%);
+}
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #f1eaea;
+}
+.overlay h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+.overlay p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+.btn {
+  padding: 0.75rem 1.5rem;
+  background: #693606;
+  color: #f04343;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+/* About Section */
+.our-story {
+  padding: 3rem 2rem;
+  text-align: center;
+}
+.our-story h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.our-story p {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Team Section */
+.team {
+  padding: 3rem 2rem;
+}
+.team h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 2rem;
+}
+.team-card {
+  background: #fff;
+  border-radius: 8px;
+  text-align: center;
+  padding: 1rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.team-card img {
+  width: 100%;
+  border-radius: 50%;
+  margin-bottom: 0.5rem;
+}
+.team-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.25rem;
+}
+.team-card p {
+  font-size: 1rem;
+  color: #7a5c48;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1.5rem;
+  background: #af9574;
+}
+footer p {
+  color: #f5f3f1;
+}
+
+
+
+
+
+
+header { padding: 1rem; text-align: center; background: #e4d1b9; }
+.logo { font-size: 2rem; }
+
+.why-choose {
+  display: flex;
+  flex-wrap: wrap;
+  background: #f3dfd4;
+}
+.image-box img { width: 100%; max-width: 400px; }
+.text-box {
+  padding: 2rem;
+}
+.text-box h2 { font-size: 2rem; margin-bottom: 1rem; }
+.text-box p { margin-bottom: 1.5rem; }
+.btn {
+  padding: 0.75rem 1.5rem;
+  background: #d15b5b;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.signature-items {
+  background: #5a3e36;
+  color: #fff;
+  padding: 2rem;
+}
+.signature-items h2 {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.item {
+  margin-right: 2rem;
+  flex: 1;
+}
+.item-boxes {
+  display: flex;
+  gap: 1rem;
+}
+.item-box img { width: 150px; height: auto; border-radius: 8px; }
+
+.products {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+}
+.product {
+  text-align: center;
+  background: #e6d7c6;
+  padding: 1rem;
+  border-radius: 8px;
+  max-width: 200px;
+}
+.product img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+.btn.small {
+  padding: 0.5rem 1rem;
+  background: #d15b5b;
+}
